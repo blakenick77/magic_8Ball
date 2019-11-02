@@ -8,7 +8,7 @@ while ans:
     question = input(
         "Ask the Magic 8 Ball a question: (press enter to quit)")
 
-    answers = random.randint(1, 42)
+    answers = random.randint(1, 21)
 
     if question == "":
         sys.exit()
@@ -79,5 +79,5 @@ while ans:
     elif answers == 20:
         print("Very doubtful")
 
-    elif answers == 42:
+    elif answers == 21:
         print("The anwser is 42")
